@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.App {
+  height: 100%;
+  text-align: center;
+}
+header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #777;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+header > button {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.loginPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.loginPageLeft {
+  width: 50%;
+}
+.loginPageRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.loginPageCenter {
+  width: 50%;
+  min-width: 500px;
+}
+
+.loginPageCenter > .inputBox {
+  width: 40%;
+  display: flex;
+}
+.loginBox {
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 45px 55px;
+  box-sizing: border-box;
+}
+.loginBox > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.loginBox > div > input {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.loginBox > div > p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.loginBox > button {
+  background-color: rgb(80, 41, 211);
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
